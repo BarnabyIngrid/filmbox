@@ -1,6 +1,6 @@
 # Getting Started with Film Box
 
-This is an open source Movies streaming service.
+This is an open source Movies browsing service.
 
 ## Available Scripts
 
