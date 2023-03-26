@@ -28,8 +28,9 @@ function App() {
             <Watched />
           </Route>
         </Switch>
+        
       </Router>
-     
+     <Footer/>
     </GlobalProvider>
    
   );

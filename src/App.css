@@ -311,7 +311,7 @@ header .nav-links li:last-child {
   text-align: center;
 }
 
-footer a h1  {
-color: white;
+  .footer-container{
+  color: var(--primary-text-color);
 
 }
