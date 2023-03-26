@@ -310,3 +310,8 @@ header .nav-links li:last-child {
   font-size: 3rem;
   text-align: center;
 }
+
+footer a h1  {
+color: white;
+
+}

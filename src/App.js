@@ -6,6 +6,7 @@ import { Watched } from "./components/Watched";
 import { Add } from "./components/Add";
 import "./App.css";
 import "./lib/font-awesome/css/all.min.css";
+import Footer from "./components/Footer/Footer";
 
 import { GlobalProvider } from "./context/GlobalState";
 
@@ -14,6 +15,7 @@ function App() {
     <GlobalProvider>
       <Router>
         <Header />
+        
 
         <Switch>
           <Route exact path="/">
@@ -27,7 +29,9 @@ function App() {
           </Route>
         </Switch>
       </Router>
+     
     </GlobalProvider>
+   
   );
 }
 
