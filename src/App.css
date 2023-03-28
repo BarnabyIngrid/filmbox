@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 * {
 margin: 0;
@@ -310,3 +311,114 @@ header .nav-links li:last-child {
   font-size: 3rem;
   text-align: center;
 }
+
+  .footer-container{
+  color: var(--primary-text-color);
+
+}
+
+.Icons {
+  padding: 30px;
+  font-size: 40px;
+  width: 60px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Add a hover effect if you want */
+.Icons:hover {
+  opacity: 1.0;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: black;
+  
+  
+}
+
+/* Twitter */
+.fa-twitter {
+  color: black;
+
+ 
+}
+
+.fa-instagram{
+color: black;
+}
+
+.fa-facebook:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.fa-instagram:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.fa-twitter:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.App {
+  text-align: center;
+  background-color:
+  black;
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: black;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 5px;
+  margin: 10px auto;
+  
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 50px;
+  }
+  
+  .success{
+  display: block;
+  background-color: black;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  /* .brand{
+    color: #e50914;
+  } */
