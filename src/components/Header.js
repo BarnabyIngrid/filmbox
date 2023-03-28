@@ -23,10 +23,9 @@ export const Header = () => {
               <Link to="/add" className="btn btn-main">
                 + Add Movies
               </Link>
-              <Link to="/Signup" className="btn btn-main-signup">
-                Signup 
-              </Link>
-              
+              {/* <Link to="/" className="btn btn-main-signup">
+                Signup
+              </Link> */}
             </li>
           </ul>
         </div>
