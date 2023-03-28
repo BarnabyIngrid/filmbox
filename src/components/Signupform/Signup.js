@@ -1,37 +1,3 @@
-// import React, { useState } from 'react';
-
-// function SignupForm() {
-//   const [name, setName] = useState('');
-//   const [email, setEmail] = useState('');
-//   const [password, setPassword] = useState('');
-
-//   // States for checking the errors
-// const [submitted, setSubmitted] = useState(false);
-// const [error, setError] = useState(false);
-
-//   const handleSubmit = (event) => {
-//     event.preventDefault();
-//     console.log(`Email: ${email} Password: ${password}`);
-//   };
-
-//   return (
-//     <form onSubmit={handleSubmit}>
-//       <label>
-//         Email:
-//         <input type="email" value={email} 
-//         onChange={(e) => setEmail(e.target.value)} />
-//       </label>
-//       <label>
-//         Password:
-//         <input type="password" value={password} 
-//         onChange={(e) => setPassword(e.target.value)} />
-//       </label>
-//       <button type="submit">Sign Up</button>
-//     </form>
-//   );
-// }
-
-// export default SignupForm;
 
 import { useState } from 'react';
 
