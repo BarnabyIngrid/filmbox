@@ -7,6 +7,7 @@ import { Add } from "./components/Add";
 import "./App.css";
 import "./lib/font-awesome/css/all.min.css";
 import Footer from "./components/Footer/Footer";
+import Signup from "./components/Signupform/Signup";
 
 import { GlobalProvider } from "./context/GlobalState";
 
@@ -26,6 +27,7 @@ function App() {
           </Route>
           <Route path="/watched">
             <Watched />
+            <Signup/>
           </Route>
         </Switch>
         
