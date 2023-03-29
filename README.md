@@ -28,8 +28,16 @@ As a team we hope you would like it.
 
 Please see the screenshots to show you the pages
 
+## Watch List
+
 ![Watch List](/src/WatchList.png)
+
+## Watched List
+
 ![Watched List](/src/WatchedList.png)
+
+## Add Movies
+
 ![Add Movies to your List](/src/AddMovies.png)
 
 ## License
