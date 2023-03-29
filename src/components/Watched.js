@@ -11,6 +11,7 @@ export const Watched = () => {
         <div className="header">
           <h1 className="heading">Watched Movies</h1>
 
+          {/* counter for movies in playlist */}
           <span className="count-pill">
             {watched.length} {watched.length === 1 ? "Movie" : "Movies"}
           </span>

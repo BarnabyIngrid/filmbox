@@ -12,6 +12,7 @@ export const ResultCard = ({ movie }) => {
   //watched hook
   let storedMovieWatched = watched.find((o) => o.id === movie.id);
 
+  //a movie could be in watchlist or watched list
   //set disable flag based on store value
   const watchlistDisabled = storedMovie
     ? true
