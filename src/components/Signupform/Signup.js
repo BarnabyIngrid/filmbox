@@ -1,8 +1,11 @@
 import { useState } from "react";
 import React from "react";
-import { useNavigate } from "react-dom";
+import { useHistory } from "react-router-dom";
+
+// import Navigation from "../Navigation/Navigation";
 
 export default function Signup() {
+  const history = useHistory();
   // States for registration
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -38,6 +41,7 @@ export default function Signup() {
     } else {
       setSubmitted(true);
       setError(false);
+      history.push("/add");
     }
   };
 
@@ -51,6 +55,7 @@ export default function Signup() {
         }}
       >
         <h1>User {name} successfully registered!!</h1>
+        {/* <Navigation /> */}
       </div>
     );
   };
@@ -109,6 +114,7 @@ export default function Signup() {
           Submit
         </button>
       </form>
+      {/* <Navigation /> */}
     </div>
   );
 }

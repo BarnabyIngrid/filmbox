@@ -12,9 +12,9 @@ function Footer() {
         <h1>Welcome to Open Database Movie Hub </h1>
         </div>
        <div className='Icons'>
-        <a href="www.facebook.com"><FontAwesomeIcon icon={faFacebook} /></a>
-        <a href="www.twitter.com"><FontAwesomeIcon icon={faTwitter} /></a>
-        <a href="www.instagram.com"><FontAwesomeIcon icon={faInstagram} /></a>
+        <a href="https://www.facebook.com/"><FontAwesomeIcon icon={faFacebook} /></a>
+        <a href="https://www.twitter.com/"><FontAwesomeIcon icon={faTwitter} /></a>
+        <a href="https://www.Instagram.com/"><FontAwesomeIcon icon={faInstagram} /></a>
       </div>
       </div>
 
