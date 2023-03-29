@@ -16,6 +16,7 @@ export const Watchlist = () => {
           </span>
         </div>
 
+        {/*return watchlist grid if watchlist exists */}
         {watchlist.length > 0 ? (
           <div className="movie-grid">
             {watchlist.map((movie) => (

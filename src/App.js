@@ -15,6 +15,8 @@ import { GlobalProvider } from "./context/GlobalState";
 
 function App() {
   return (
+    //wrapping everything to the GlobalProvide so that 
+    //it has application access 
     <GlobalProvider>
       <Router>
         {/* header element for all pages */}

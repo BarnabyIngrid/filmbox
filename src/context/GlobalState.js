@@ -2,10 +2,10 @@
 import React, { createContext, useReducer, useEffect } from "react";
 import AppReducer from "./AppReducer";
 
-// initial state of store
+// pick up initial state of store after loading 
+//if nothing exists then return empty array
 const initialState = {
 
-  //creating watched and watchlist
   watchlist: localStorage.getItem("watchlist")
     ? JSON.parse(localStorage.getItem("watchlist"))
     : [],
@@ -21,21 +21,25 @@ export const GlobalContext = createContext(initialState);
 export const GlobalProvider = (props) => {
   const [state, dispatch] = useReducer(AppReducer, initialState);
 
-
+  //keep a tab on any change .. maintains cosnsistancy during page refresh
   useEffect(() => {
     localStorage.setItem("watchlist", JSON.stringify(state.watchlist));
     localStorage.setItem("watched", JSON.stringify(state.watched));
   }, [state]);
 
   // actions
+
+  //add movie
   const addMovieToWatchlist = (movie) => {
     dispatch({ type: "ADD_MOVIE_TO_WATCHLIST", payload: movie });
   };
 
+  //remove movie 
   const removeMovieFromWatchlist = (id) => {
     dispatch({ type: "REMOVE_MOVIE_FROM_WATCHLIST", payload: id });
   };
 
+  //move from WatchList to Watched 
   const addMovieToWatched = (movie) => {
     dispatch({ type: "ADD_MOVIE_TO_WATCHED", payload: movie });
   };
