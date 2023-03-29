@@ -23,9 +23,11 @@ export const Header = () => {
               <Link to="/add" className="btn btn-main">
                 + Add Movies
               </Link>
-              {/* <Link to="/" className="btn btn-main-signup">
+            </li>
+            <li>
+              <Link to="/signup" className="btn btn-main-signup">
                 Signup
-              </Link> */}
+              </Link>
             </li>
           </ul>
         </div>

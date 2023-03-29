@@ -318,7 +318,7 @@ header .nav-links li:last-child {
  /* background-color: red; */
  display: flex;
  justify-content: center;
- padding-top: 200px;
+ padding-top: 400px;
  
  text-align: center;
  
@@ -340,7 +340,7 @@ header .nav-links li:last-child {
   width: 100%;
   text-decoration: none;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
   
 
@@ -425,7 +425,7 @@ cursor: pointer;
   border-radius: 5px;
   font-size: larger;
   display: block;
-  padding: 5px;
+  padding: 10px;
   margin: 10px auto;
   cursor: pointer;
   
@@ -465,3 +465,5 @@ cursor: pointer;
     text-align: center;
     color: white;
   }
+
+  
