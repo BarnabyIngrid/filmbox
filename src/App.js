@@ -16,25 +16,24 @@ function App() {
     <GlobalProvider>
       <Router>
         <Header />
-        
 
         <Switch>
           <Route exact path="/">
-            <Watchlist />
+            <Signup />
           </Route>
           <Route path="/add">
             <Add />
           </Route>
           <Route path="/watched">
             <Watched />
-            <Signup/>
+          </Route>
+          <Route path="/Watchlist">
+            <Watchlist />
           </Route>
         </Switch>
-        
+        <Footer />
       </Router>
-     <Footer/>
     </GlobalProvider>
-   
   );
 }
 
