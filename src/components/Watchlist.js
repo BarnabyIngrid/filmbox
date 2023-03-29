@@ -29,3 +29,4 @@ export const Watchlist = () => {
     </div>
   );
 };
+
