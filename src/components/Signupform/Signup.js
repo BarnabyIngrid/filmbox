@@ -84,7 +84,7 @@ export default function Signup() {
         {errorMessage()}
         {successMessage()}
       </div>
-      <form className="form">
+      <form className="form-input">
         {/* Labels and inputs for form data */}
         <label className="label">Name</label>
         <input
