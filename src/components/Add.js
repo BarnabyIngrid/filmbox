@@ -13,13 +13,16 @@ export const Add = () => {
   const onChange = (e) => {
     e.preventDefault();
 
+    //set the query to the new value 
     setQuery(e.target.value);
 
-    //call to the TMPD api
+    //call TMPDB API
     fetch(
       //passing API key through environment variable file. We pass hard coded value of false to avoid adult contents 
+      //pass the typed string via variable 
       `https://api.themoviedb.org/3/search/movie?api_key=${process.env.REACT_APP_TMDB_KEY}&language=en-US&page=1&include_adult=false&query=${e.target.value}`
     )
+      //convert result to json
       .then((res) => res.json())
       .then((data) => {
         //if there are no errors then set the result 
@@ -52,6 +55,7 @@ export const Add = () => {
           {results.length > 0 && (
             <ul className="results">
               {results.map((movie) => (
+                //passing unique key
                 <li key={movie.id}>
                   <ResultCard movie={movie} />
                 </li>

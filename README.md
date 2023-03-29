@@ -1,27 +1,37 @@
 # Getting Started with Film Box
 
-This is an open source Movies browsing service.
+This Website is designed with movie buffs in mind who are always on the go and would like to maintain a list of movies that they would like to watch. And, perhaps would do a binge watch one day.
 
-## Available Scripts
+It’s a light weight application that allows user to browse and movies to a watchlist and later move them to a watched list.
 
-In the project directory, you can run:
+## Description
 
-### `npm start`
+This application has been built with React.
+The Website contains header & navbar, that renders across the whole site. The navbar has 3 links for Watchlist, Watched and Add Movies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Packages/libraries used in the application build include:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- react-router-dom
+- react-moment
 
-### `npm test`
+The deployed application can be viewed at <https://moviefilmbox.netlify.app/>
 
-Launches the test runner in the interactive watch mode.\
+GitHub Repository is available at: <https://github.com/BarnabyIngrid/filmbox>
 
-### `npm run build`
+## Usage
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Click on AddMovies button and type a movie that you like.
+A user can then choose to add a movie to either a Watchlist or a Watched list.
+It's your online movie diary on the go.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+As a team we hope you would like it.
+
+Please see the screenshots to show you the pages
+
+![Watch List](/src/WatchList.png)
+![Watched List](/src/WatchedList.png)
+![Add Movies to your List](/src/WatchList.png.png)
+
+## License
+
+MIT
