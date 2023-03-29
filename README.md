@@ -30,7 +30,7 @@ Please see the screenshots to show you the pages
 
 ![Watch List](/src/WatchList.png)
 ![Watched List](/src/WatchedList.png)
-![Add Movies to your List](/src/WatchList.png.png)
+![Add Movies to your List](/src/AddMovies.png)
 
 ## License
 
