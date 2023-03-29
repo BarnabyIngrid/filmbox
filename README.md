@@ -32,7 +32,7 @@ Please see the screenshots to show you the pages
 
 ![Watch List](/src/WatchList.png)
 
-## Watched List
+## Watched Movies
 
 ![Watched List](/src/WatchedList.png)
 
