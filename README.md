@@ -40,6 +40,12 @@ Please see the screenshots to show you the pages
 
 ![Add Movies to your List](/src/AddMovies.png)
 
+
+https://user-images.githubusercontent.com/88402273/228894411-6cb41246-8ea0-4aff-845a-fa96af774791.mp4
+
+
+
+
 ## License
 
 MIT
