@@ -25,6 +25,11 @@ export const Header = () => {
                 + Add Movies
               </Link>
             </li>
+            <li>
+              <Link to="/signup" className="btn btn-main-signup">
+                Signup
+              </Link>
+            </li>
           </ul>
         </div>
       </div>

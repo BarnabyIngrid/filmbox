@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
 
 * {
 margin: 0;
@@ -310,3 +311,159 @@ header .nav-links li:last-child {
   font-size: 3rem;
   text-align: center;
 }
+
+  .footer-container{
+  color: var(--primary-text-color);
+ position: relative;
+ /* background-color: red; */
+ display: flex;
+ justify-content: center;
+ padding-top: 400px;
+ 
+ text-align: center;
+ 
+ 
+}
+
+.para{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 20px;
+  
+ 
+}
+.Icons {
+  /* padding: 30px; */
+  font-size: 40px;
+  width: 100%;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+
+}
+
+
+
+.child{
+  position: absolute;
+  background-color: transparent;
+  width: 100%;
+  border-radius: 10px;  
+  margin-top: auto;
+}
+/* Add a hover effect if you want */
+.Icons:hover {
+  opacity: 1.0;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-facebook {
+  color: black;
+  cursor: pointer;
+  /* margin: 30px; */
+}
+
+/* Twitter */
+.fa-twitter {
+  color: black;
+  cursor: pointer;
+  /* margin: 50px; */
+ 
+}
+
+.fa-instagram{
+color: black;
+cursor: pointer;
+/* margin: 50px; */
+
+}
+
+
+
+.fa-facebook:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.fa-instagram:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.fa-twitter:hover{
+  color: white;
+  transform: translate(-2px);
+}
+
+.App {
+  text-align: center;
+  background-color:
+  black;
+  }
+  
+  .label{
+  display: block;
+  font-size: larger;
+  color: white;
+  padding: 5px;
+  }
+  
+  .input{
+  font-size: larger;
+  padding: 5px;
+  margin: 2px;
+  
+  }
+  .btn{
+  color: white;
+  border-radius: 5px;
+  font-size: larger;
+  display: block;
+  padding: 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  
+  }
+  
+  .messages{
+  display: flex;
+  justify-content: center;
+  }
+  
+  .error{
+  display: block;
+  background-color: #171717;;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 50px;
+  }
+  
+  .success{
+  display: block;
+  background-color: #171717;;
+  color: white;
+  width: fit-content;
+  height: 50px;
+  padding: 5px;
+  }
+  
+  /* .brand{
+    color: #e50914;
+  } */
+
+  .form{
+    padding-top: 55px;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+    color: white;
+  }
+
+  

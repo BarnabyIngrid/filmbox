@@ -10,6 +10,8 @@ import "./App.css";
 
 //inherited css 
 import "./lib/font-awesome/css/all.min.css";
+import Footer from "./components/Footer/Footer";
+import Signup from "./components/Signupform/Signup";
 
 import { GlobalProvider } from "./context/GlobalState";
 
@@ -24,9 +26,14 @@ function App() {
 
         {/* switch to move around pages */}
         <Switch>
+<<<<<<< HEAD
+          <Route exact path="/signup">
+            <Signup />
+=======
           {/* home path --will take us to watch list */}
           <Route exact path="/">
             <Watchlist />
+>>>>>>> main
           </Route>
 
           {/* add page to show add component */}
@@ -38,8 +45,15 @@ function App() {
           <Route path="/watched">
             <Watched />
           </Route>
+<<<<<<< HEAD
+          <Route path="/">
+            <Watchlist />
+          </Route>
+=======
           
+>>>>>>> main
         </Switch>
+        <Footer />
       </Router>
     </GlobalProvider>
   );
