@@ -11,11 +11,13 @@ export const Watchlist = () => {
         <div className="header">
           <h1 className="heading">My Watchlist</h1>
 
+          {/* counter for movies in playlist */}
           <span className="count-pill">
             {watchlist.length} {watchlist.length === 1 ? "Movie" : "Movies"}
           </span>
         </div>
 
+        {/*return watchlist grid if watchlist exists */}
         {watchlist.length > 0 ? (
           <div className="movie-grid">
             {watchlist.map((movie) => (
@@ -29,3 +31,4 @@ export const Watchlist = () => {
     </div>
   );
 };
+

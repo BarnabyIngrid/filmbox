@@ -3,22 +3,25 @@ import Moment from "react-moment";
 import { GlobalContext } from "../context/GlobalState";
 
 export const ResultCard = ({ movie }) => {
-  const {
-    addMovieToWatchlist,
-    addMovieToWatched,
-    watchlist,
-    watched,
-  } = useContext(GlobalContext);
+  const { addMovieToWatchlist, addMovieToWatched, watchlist, watched } =
+    useContext(GlobalContext);
 
+  //find store values
   let storedMovie = watchlist.find((o) => o.id === movie.id);
+
+  //watched hook
   let storedMovieWatched = watched.find((o) => o.id === movie.id);
 
+  //a movie could be in watchlist or watched list
+  //set disable flag based on store value
   const watchlistDisabled = storedMovie
     ? true
     : storedMovieWatched
     ? true
     : false;
 
+  //set disable flag based on store value
+  //not null then true 
   const watchedDisabled = storedMovieWatched ? true : false;
 
   return (

@@ -1,4 +1,5 @@
 import React from "react";
+// this would allow us to create nav links
 import { Link } from "react-router-dom";
 
 export const Header = () => {
